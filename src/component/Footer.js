@@ -17,7 +17,7 @@ export default function Hero() {
             <div className="max-w-7xl mx-auto">
 
                 <Popover>
-                    <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
+                    <div className="relative pt-6 px-4 sm:px-6 lg:px-8 py-10 mt-28">
                         <nav className="px-4 relative flex items-center justify-between sm:h-10 lg:justify-start">
                             <div className="hidden md:block md:md1-10 md:pr-4 md:space-x-8">
                                 <a href="#">
@@ -42,20 +42,11 @@ export default function Hero() {
                                 </p>
                             </div>
                         </nav>
-                    </div>
-                </Popover>
-
-                <main className="mt-28 mb-20 mx-auto max-w-7x1 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-36 lg:px-8 xl:mt-48">
-                    <div className="sm:text-center lg:text-left">
-                        <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                            <span className="text-indigo-900">Let's code with</span><span className="text-pink-600"> Tailwind CSS!</span>
-                        </h1>
-                        <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                            Tailwind is a low-level CSS framework, based around style classes. 
+                        <p className="mt-8 text-center text-sm">
+                            Copyright: Joona Mellin 2021
                         </p>
                     </div>
-                </main>
-
+                </Popover>
             </div>
         </div>
     )

@@ -5,12 +5,14 @@ import Hero from './component/Hero';
 import Team from './component/Team';
 import ThreeColumns from './Assets/ThreeColumns';
 import HeroRight from './component/Heroright';
-import Home from './page/home';
+import Home from './page/Home';
+import Test from './page/Test';
 
 function App() {
   return (
     <div>
       <Home />
+      <Test />
     </div>
   );
 }
