@@ -1,5 +1,4 @@
 import React from "react";
-import { Popover, Transition } from '@headlessui/react'
 import Hero from "../component/Hero";
 import ThreeColumns from "../Assets/ThreeColumns";
 import HeroRight from "../component/Heroright";
