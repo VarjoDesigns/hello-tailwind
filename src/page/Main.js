@@ -5,7 +5,7 @@ import HeroRight from "../component/Heroright";
 import HeroCenter from "../component/Herocenter";
 import Learnmore from "../component/Learnmore";
 
-export default function Home() {
+export default function Main() {
     // Simple card
     return(
         <div className="bg-gray-50 h-full">
