@@ -16,7 +16,6 @@ export default function Team() {
                         </p>
                     </div>
                 </main>
-
             </div>
         </div>
     )
