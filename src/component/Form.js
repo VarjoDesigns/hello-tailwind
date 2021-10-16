@@ -41,7 +41,7 @@ export default function Form() {
     }
 
     return(
-        <div className="mt-20">
+        <div id="contact" className="mt-20">
             <h1 className="font-bold tracking-tight text-2xl text-center text-indigo-900">
                 Please leave us a message!
             </h1>

@@ -13,23 +13,23 @@ export default function Hero() {
     const behance = <FontAwesomeIcon icon ={faBehance} />
 
     return(
-        <div className="relative overflow-hidden">
+        <div id="top" className="relative overflow-hidden">
             <div className="max-w-7xl mx-auto">
 
                 <Popover>
                     <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
                         <nav className="px-4 relative flex items-center justify-between sm:h-10 lg:justify-start">
                             <div className="hidden md:block md:md1-10 md:pr-4 md:space-x-8">
-                                <a href="#">
+                                <a href="#top">
                                     <span className="font-medium text-indigo-800 hover:text-pink-600">Home</span>
                                 </a>
-                                <a href="#">
+                                <a href="#about">
                                     <span className="font-medium text-indigo-800 hover:text-pink-600">About</span>
                                 </a>
-                                <a href="#">
+                                <a href="#services">
                                     <span className="font-medium text-indigo-800 hover:text-pink-600">Services</span>
                                 </a>
-                                <a href="#">
+                                <a href="#contact">
                                     <span className="font-medium text-indigo-800 hover:text-pink-600">Contact</span>
                                 </a>
                             </div>

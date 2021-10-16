@@ -4,7 +4,7 @@ import { Popover, Transition } from '@headlessui/react'
 export default function HeroRight() {
 
     return(
-        <div className="relative overflow-hidden">
+        <div id="services" className="relative overflow-hidden">
             <div className="max-w-7xl mx-auto">
                 <main className="mt-28 mb-20 mx-auto max-w-7x1 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-36 lg:px-8 xl:mt-48">
                     <div className="text-right">
