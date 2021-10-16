@@ -36,9 +36,9 @@ export default function Hero() {
                             <div className="relative w-full">
                                 <p className="text-right w-full text-xl">
                                     <a href="https://github.com/varjodesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ github }</a>
-                                    <a href="https://github.com/varjodesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ instagram }</a>
-                                    <a href="https://github.com/varjodesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ facebook }</a>
-                                    <a href="https://github.com/varjodesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ behance }</a>
+                                    <a href="https://www.instagram.com/varjodesigns/" className="px-2 text-indigo-800 hover:text-pink-600">{ instagram }</a>
+                                    <a href="https://www.facebook.com/VarjoDesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ facebook }</a>
+                                    <a href="https://www.behance.net/VarjoDesigns" className="px-2 text-indigo-800 hover:text-pink-600">{ behance }</a>
                                 </p>
                             </div>
                         </nav>

@@ -6,7 +6,7 @@ export default function Card(props) {
     return(
         <div className="mt-28 max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mb-12">
             <article>
-                <section className="mt-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5">
+                <section className="mt-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 ">
                     { props.data.map( data => {
                         return(
                             <article key={ data.id } className="relative bg-white overflow-hidden w-full h-60 bg-cover bg-center transition ease-in-out duration-500 shadow-md hover:shadow-lg rounded-md">
